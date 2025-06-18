@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "orientation": "default",
+    "scheme": "acme",
+    "plugins": [
+      "expo-router"
+    ],
+    "name": "app_front",
+    "slug": "app_front",
+     "extra": {
+      "EXPO_API_BASE_URL": "http://192.168.103.49:85"
+    }
+
+  }
+}
