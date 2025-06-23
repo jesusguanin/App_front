@@ -1,15 +1,16 @@
 {
   "expo": {
     "orientation": "default",
+    "jsEngine": "jsc",
     "scheme": "acme",
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-barcode-scanner"
     ],
     "name": "app_front",
     "slug": "app_front",
-     "extra": {
+    "extra": {
       "EXPO_API_BASE_URL": "http://192.168.103.49:85"
     }
-
   }
 }

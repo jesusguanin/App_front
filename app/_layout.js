@@ -1,6 +1,11 @@
-// app/_layout.js
-import { Slot } from "expo-router";
+import { GluestackUIProvider } from '@gluestack-ui/themed';
+import { config } from '@gluestack-ui/config';
+import { Slot } from 'expo-router';
 
 export default function Layout() {
-  return <Slot />;
+  return (
+    <GluestackUIProvider config={config}>
+      <Slot />
+    </GluestackUIProvider>
+  );
 }
